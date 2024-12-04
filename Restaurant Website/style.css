@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Header */
+  header {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+  }
+
+  
+  nav,#name_hotel {
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    color: maroon;
+    }
+    a{   
+        color: white;
+     }
+     #a1{
+         margin-left: 60%;
+     }
+     #a3{
+         margin-right: 20px;
+     }
+   
+ #name{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+ }
+ 
+ section{
+     display: flex;
+     justify-content: center;
+     margin-top: 2%;
+     font-style: oblique;
+ 
+ }
+ #title1{
+    position: absolute;
+    color:brown;
+    font-size: 30px;
+    }
+    #img1{
+        margin-top: 45px;
+        height: 300px;
+        position: absolute;
+        margin-left: 10px;
+    }
+    #food{
+        position: relative;
+    margin-top: 28%;
+    color: rgb(255, 0, 0);    
+    }
+    #section2{
+        display: flex;
+    }
+    #photo1{
+        width: 480px;
+        height: 300px;
+        border: 1px solid black;
+    }
+    #photo2{
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+    }
+    #photo3{
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+    }
+    #details{
+        display: flex;
+        
+    }
+    #b1{
+        position: relative;
+        justify-content: center;
+    }
+    #b1{
+        position: relative;
+        
+    }
+    #p1{
+        position: absolute;
+        margin-left: 68%;
+        margin-top: -3%;
+    }
+    #c1{
+        position: absolute;
+        margin-left: 35%;
+        margin-top: -3%;
+    }
+    footer{
+        background-color:black;
+        color: #fff;
+        margin-top: 200px;
+        height: 80px;
+        width: 100%;
+        border-radius: none;
+        
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    aside{
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 10%;
+    }
+    #offer{
+        color: red;
+        font-weight: bolder;
+        font-size: xx-large;
+        animation: blink 1s infinite;
+    }
+    #dis{
+        
+        color: green;
+       
+        
+    }
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}   
