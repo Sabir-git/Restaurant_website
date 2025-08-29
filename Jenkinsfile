@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/your-website-repo.git'
+                git 'https://github.com/Sabir-git/Restaurant_website.git'
             }
         }
 
